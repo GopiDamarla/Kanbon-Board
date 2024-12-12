@@ -43,7 +43,7 @@ const AddTaskModal = ({ onClose, onAddTask }) => {
         <Select
           labelId="priority-label"
           value={priority}
-          onChange={(e) => setPriority(e.target.value)}// Update priority state
+          onChange={(e) => setPriority(e.target.value)}// Update priority stategit
           label="Priority"
         >
           <MenuItem value="High">High</MenuItem>
